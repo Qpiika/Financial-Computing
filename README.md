@@ -1,19 +1,23 @@
 # Financial-Computing
 ## Multi-stock portfolio analysis and forecasting
 
-### Part 2: Data preprocessing
+### Data preprocessing
 data preparation.ipynb
 By using the stock.csv file 
+There is the way how to choose 3 stocks of total 14.
 
-### Part 3: Portfolio analysis
+### Portfolio analysis
 Analysis of portfolio.ipynb
+Include correlation analysis of stocks, different weights to get profit, Monte Carlo simulation on Markowitz theory, Sharpe ratio and Deep learning to train a model which can get the optimal return and its corresponding weights.
 The code of deep learning may run seconds.
 
-### Part 4: Time Series
+
+### Time Series
 TimeSeries.ipynb
 You should do "pip install pandas_datareader" if you don't have this package.
+Based on the weights which is calculated by Monte Carlo and Deep learning, predicting the cumulative return of each weight portfolio.
 
-### Part 5: Generalize our model
+### Generalize our model
 This is a project that you can get the cumulative return of each portfolio, you have 2 choices to generate the cumulative return image and get the corresponding weights.
 Portfolio_monte.py
 main.ipynb
