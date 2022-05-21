@@ -1,18 +1,19 @@
 # Financial-Computing
+## Multi-stock portfolio analysis and forecasting
 
-## Part 2: Data preprocessing
+### Part 2: Data preprocessing
 data preparation.ipynb
 By using the stock.csv file 
 
-## Part 3: Portfolio analysis
+### Part 3: Portfolio analysis
 Analysis of portfolio.ipynb
 The code of deep learning may run seconds.
 
-## Part 4: Time Series
+### Part 4: Time Series
 TimeSeries.ipynb
 You should do "pip install pandas_datareader" if you don't have this package.
 
-## Part 5: Generalize our model
+### Part 5: Generalize our model
 This is a project that you can get the cumulative return of each portfolio, you have 2 choices to generate the cumulative return image and get the corresponding weights.
 Portfolio_monte.py
 main.ipynb
